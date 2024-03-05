@@ -2,7 +2,7 @@ Web-Development-Oasis:-
 
 
 project 1:-landing page use of html,css,js
-file:///C:/Users/Asus/Desktop/web%20devep/INTERNSHIP/Pro1.html
+http://127.0.0.1:5500/INTERNSHIP/Pro1.html
 
 
 project 2:-portfolio use of html,css
