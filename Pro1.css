@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  .logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 41px;
+    outline: 4px solid red;
+  }
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+    background-color:blanchedalmond;
+  }
+   
+  button {
+    font-size: 2rem;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(to right, #c31432, #892211);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    border: none;
+  }
+  .items {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .items a:link {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .items a:hover {
+    color: red;
+  }
+  
+  .active {
+    color: red !important;
+  }
+  .destination {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.destination-card {
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+section {
+    padding: 50px;
+    text-align: center;
+    background-color:rgb(140, 245, 248);
+}
+
+h1 {
+    color: #3498db;
+}
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
